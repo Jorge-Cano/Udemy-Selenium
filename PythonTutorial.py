@@ -11,6 +11,6 @@ for x in xrange(3):
 else:
     print 'Final x = %d' % (x)
 
-for x in xrange(3):
+for x in xrange(15):
     if x == 1:
         break
