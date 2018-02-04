@@ -17,6 +17,6 @@
 #     print 'Final X = %d' % (x)
 
 
-for x in xrange(1, 11):
-    for y in xrange(1, 11):
+for x in xrange(1, 16):
+    for y in xrange(1, 21):
         print '%d * %d = %d' % (x, y, x*y)
