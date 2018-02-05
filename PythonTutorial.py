@@ -17,6 +17,11 @@
 #     print 'Final X = %d' % (x)
 
 
-for x in xrange(1, 16):
-    for y in xrange(1, 21):
-        print '%d * %d = %d' % (x, y, x*y)
+# for x in xrange(1, 16):
+#     for y in xrange(1, 21):
+#         print '%d * %d = %d' % (x, y, x*y)
+
+list_of_lists = [ [1, 2, 3], [4, 5, 6], [7, 8, 9]]
+for list in list_of_lists:
+    for x in list:
+        print x
